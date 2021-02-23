@@ -18,10 +18,8 @@ function plusbuttonaction() {
   //change the text value of the result element in the DOM
   result.innerText = sum(num1.value, num2.value);
 }
-
-function add1() {
-  result.innerHTML = 1;
-  console.log("add1");
+function add(val) {
+  document.querySelector("#number1").value = val;
 }
 
 // - button
